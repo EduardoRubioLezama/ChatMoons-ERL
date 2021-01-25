@@ -1,8 +1,16 @@
+Backend - Node, Express
+Fronend - ReactJS
+BD - MongoDB
+
 Para correr el proyecto: 
 
-1. Ir a la carpeta chat-moons-back y ejecutar "npm start" para correr el backend
-2. Posteriormente desde otra termina ir a la la carpeta chat-moons-front y ejecutar "npm start" el front
-3. Ir a http://localhost:3000/register y registrar 2 usuarios
+Prerrequisitos: 
+- Tener instalado node y npm.
+- Tener instalando y activo mongod
+
+1. Ir a la carpeta chat-moons-back y ejecutar primero "npm i" y después "npm start" para correr el backend
+2. Posteriormente desde otra terminal ir a la la carpeta chat-moons-front y ejecutar "npm i" y después "npm start" para correr el front
+3. Ir a http://localhost:3000/register y registrar 2 usuarios al menos
 4. Ingresar con las credenciales de un usuario desde Chrome y con las credenciales del otro usuario desde Chrome en modo incognito
 5. Ahora si podemos probar la funcionalidad basica de un chat de dos personas. Cabe mencionar que por cada dos personas que esten registradas, se puede entablar una conversacion
    privada entre ellas dos.
