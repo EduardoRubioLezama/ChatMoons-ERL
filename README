@@ -1,6 +1,7 @@
 Backend - Node, Express
 Fronend - ReactJS
-BD - MongoDB
+BD - MongoDB : Liga de instalación - https://docs.mongodb.com/manual/administration/install-community/
+
 
 Para correr el proyecto: 
 
@@ -9,7 +10,7 @@ Prerrequisitos:
 - Tener instalando y activo mongod
 
 1. Ir a la carpeta chat-moons-back y ejecutar primero "npm i" y después "npm start" para correr el backend
-2. Posteriormente desde otra terminal ir a la la carpeta chat-moons-front y ejecutar "npm i" y después "npm start" para correr el front
+2. Posteriormente desde otra terminal ir a la la carpeta chat-moons-front y ejecutar "npm i" ,"npm i nodemon" y después "npm start" para correr el front
 3. Ir a http://localhost:3000/register y registrar 2 usuarios al menos(El correo debe tener dominio [@gmail.com , @yahoo.com , @hotmail.com , @live.com/] )
 4. Ingresar con las credenciales de un usuario desde Chrome y con las credenciales del otro usuario desde Chrome en modo incognito, para iniciar sesion hay que ir a 
 http://localhost:3000/login
